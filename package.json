@@ -1,0 +1,28 @@
+{
+  "name": "cartolafc",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "https://github.com/Broettogodinho/cartolafc#readme",
+  "bugs": {
+    "url": "https://github.com/Broettogodinho/cartolafc/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Broettogodinho/cartolafc.git"
+  },
+  "license": "ISC",
+  "author": "BRUNO BROETTO GODINHO",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@img/sharp-win32-x64": "^0.33.5",
+    "next": "^15.2.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.33.5"
+  }
+}
