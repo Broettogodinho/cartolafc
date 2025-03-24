@@ -16,13 +16,14 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev", 
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start", 
+    "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "@img/sharp-win32-x64": "^0.33.5",
+    "@supabase/supabase-js": "^2.49.2",
     "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
