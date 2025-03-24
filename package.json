@@ -1,32 +1,27 @@
 {
-  "name": "cartolafc",
-  "version": "1.0.0",
-  "description": "",
-  "keywords": [],
-  "homepage": "https://github.com/Broettogodinho/cartolafc#readme",
-  "bugs": {
-    "url": "https://github.com/Broettogodinho/cartolafc/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Broettogodinho/cartolafc.git"
-  },
-  "license": "ISC",
-  "author": "BRUNO BROETTO GODINHO",
-  "type": "commonjs",
-  "main": "index.js",
+  "name": "cartola-fc",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "next dev",
+  "build": "next build",
+  "start": "next start"
+}
+,
   "dependencies": {
-    "@img/sharp-win32-x64": "^0.33.5",
-    "@supabase/supabase-js": "^2.49.2",
-    "next": "^15.2.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sharp": "^0.33.5"
+    "next": "15.2.3"
+  },
+  "devDependencies": {
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@tailwindcss/postcss": "^4",
+    "tailwindcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.2.3",
+    "@eslint/eslintrc": "^3"
   }
 }
